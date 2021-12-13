@@ -1,1 +1,1 @@
-"# SuperPals" 
+# SuperPals
