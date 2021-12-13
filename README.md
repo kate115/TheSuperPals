@@ -1,1 +1,1 @@
-"# SuperPals" 
+# Welcome to the Super Pals!
