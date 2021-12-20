@@ -51,6 +51,9 @@ a:active {
     #phone-visibility {
         display: none;
     }
+    body {
+        font-family: sans-serif;
+    }
 }
 
 @media only screen and (max-width: 600px) {
