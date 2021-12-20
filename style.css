@@ -27,11 +27,11 @@ a:active {
 
 .footer {
     background-color: rgb(255, 163, 186);
-    padding: 6px;
-    clear: both;
+    color: white;
+    padding: 5px 10px;
     border-style: solid;
     border-color: black;
-    border-width: 8px;
+    border-width: 2px;
     border-radius: 35px;
 }
 
@@ -51,9 +51,6 @@ a:active {
     #phone-visibility {
         display: none;
     }
-    body {
-        font-family: sans-serif;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,5 +59,8 @@ a:active {
     }
     #phone-visibility {
         visibility: visible;
+    }
+    body {
+        font-family: sans-serif;
     }
   }
