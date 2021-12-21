@@ -133,6 +133,22 @@
 
       <h1 class="footer">Thanks for looking at our website.</h1>
 
-    <script src="script.js"></script>
+      <p>Loading content from the API: <b id="name">...</b></p>
+      <p>Loading database content from the API: <b id="data">...</b></p>
+      <p>Loading fun content from the API: <b id="fun">...</b></p>
+
+      <script src="script.js"></script>
+    <script>
+      (async function() {
+          const { text, dbmsg } = await( await fetch(`/api/message`)).json();
+          document.querySelector('#name').textContent = text;
+          document.querySelector('#data').textContent = dbmsg;
+      }())
+
+      (async function() {
+        const { text } = await( await fetch(`/api/test`)).json();
+        document.querySelector('#fun').textContent = text;
+      }())
+      </script>
   </body>
 </html>
