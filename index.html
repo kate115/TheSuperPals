@@ -20,6 +20,8 @@
 
       <h1 class="header">Welcome to The Super Pals!</h1>
 
+      <script src="JavaScript/greeting.js"></script>
+
     <div class="extra-info">
       <p>
         Welcome! We made this website to tell you about our business: The Super
@@ -108,7 +110,7 @@
   <p>Loading database content from the API: <b id="data">...</b></p>
   <p>Loading fun content from the API: <b id="fun">...</b></p>
 
-      <script src="script.js"></script>
+      <script src="../JavaScript/script.js"></script>
     <script>
       (async function() {
           const { text, dbmsg } = await( await fetch(`/api/message`)).json();
