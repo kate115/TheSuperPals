@@ -4,7 +4,7 @@ body {
 }
 
 a {
-   color: rgb(71, 71, 202);
+    color: rgb(71, 71, 202);
 }
 
 a:hover {
@@ -23,6 +23,7 @@ a:active {
     border-color: black;
     border-width: 2px;
     border-radius: 35px;
+    padding-bottom: 20px;
 }
 
 .footer {
@@ -45,6 +46,7 @@ a:active {
     border-color: black;
     border-width: 2px;
     border-radius: 35px;
+    margin-top: 20px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -57,10 +59,12 @@ a:active {
     body {
         visibility: hidden;
     }
+
     #phone-visibility {
         visibility: visible;
     }
+
     body {
         font-family: sans-serif;
     }
-  }
+}

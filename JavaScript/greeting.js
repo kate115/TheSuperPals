@@ -1,5 +1,5 @@
 var today = new Date;
-var hourNow = today.getHours;
+var hourNow = today.getHours();
 var greeting;
 
 // Check time so we can change the greeting
