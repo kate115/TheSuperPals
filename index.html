@@ -113,9 +113,9 @@
       <script src="../JavaScript/script.js"></script>
     <script>
       (async function() {
-          const { text, dbmsg = "empty" } = await( await fetch(`/api/message`)).json();
-          document.querySelector('#name').textContent = text;
-          document.querySelector('#data').textContent = dbmsg;
+        const { text } = await( await fetch(`/api/message`)).json();
+        document.querySelector('#name').textContent = text;
+        document.querySelector('#data').textContent = "dbmsg";
       }())
 
       (async function() {
