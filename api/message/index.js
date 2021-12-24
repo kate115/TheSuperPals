@@ -14,8 +14,8 @@
 
 module.exports = async function (context, req) {
 
-    const inData = context.bindings.inputDocument;
-    console.log("inData" , inData);
+    // const inData = context.bindings.inputDocument;
+    // console.log("inData" , inData);
 
     context.res.json({
         text: "Hello from the API"
