@@ -14,24 +14,6 @@
       "type": "http",
       "direction": "out",
       "name": "res"
-    },
-    {
-      "type": "cosmosDB",
-      "direction": "out",
-      "name": "outputDocument",
-      "databaseName": "superpaldb",
-      "collectionName": "superpalcontainer",
-      "createIfNotExists": false,
-      "connectionStringSetting": "CosmosDbConnectionString"
-    },
-    {
-      "type": "cosmosDB",
-      "direction": "in",
-      "name": "inputDocument",
-      "databaseName": "superpaldb",
-      "collectionName": "superpalcontainer",
-      "connectionStringSetting": "CosmosDbConnectionString",
-      "sqlQuery": "select * from c"
     }
   ]
 }
