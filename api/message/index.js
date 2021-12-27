@@ -3,7 +3,6 @@ module.exports = async function (context, req) {
 
     const name = (req.query.name || (req.body && req.body.name));
     const responseMessage = name
-    name = "please input a username"
         ? "Hello, " + name + ". I'm happy to show you this website."
         : "Hello, friend. I'm happy to show you this website.";
 
