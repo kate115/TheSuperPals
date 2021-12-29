@@ -1,5 +1,0 @@
-CREATE TABLE  (id INTEGER PRIMARY KEY, name TEXT);
-
-INSERT INTO friends VALUES (1, "Ryan");
-
-SELECT * FROM friends;
