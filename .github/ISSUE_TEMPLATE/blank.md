@@ -3,7 +3,7 @@ name: Blank
 about: A blank issue for customs
 title: blank
 labels: Won't Fix
-assignees: kate115, torrac1115
+assignees: torrac1115, kate115
 
 ---
 
