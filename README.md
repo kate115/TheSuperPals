@@ -13,5 +13,6 @@ lots of fun things, and I, Melody, the writer and coder of the team, is making a
 - This Website
 ## Why we made this website
 We, The Super Pals, always wanted to be famous. But, being famous isn't always that easy. One day, when I
-was alone, I decided that we should have a website! And then, this website was born. When I first started
-this, I wasn't so sure about it. But later, it turned out great! And so, this website was also born!
+was alone, I decided that we should have a website! When I first started this, I wasn't so sure about it.
+But later, it turned out great! And so, this website was also born! I was proud of myself. It was my dream
+to have both a company, and a company website!
