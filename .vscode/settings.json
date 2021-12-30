@@ -1,9 +1,13 @@
 {
     "cSpell.words": [
         "Comix",
+        "dbmsg",
         "Grammarly",
         "Parnika",
-        "Varma"
+        "superpalcontainer",
+        "superpaldb",
+        "Varma",
+        "YAYAYAYAYAYAYAY"
     ],
     "azureFunctions.deploySubpath": "api",
     "azureFunctions.postDeployTask": "npm install (functions)",

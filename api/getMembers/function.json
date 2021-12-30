@@ -14,6 +14,15 @@
       "type": "http",
       "direction": "out",
       "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "superpaldb",
+      "collectionName": "members",
+      "connectionStringSetting": "CosmosDbConnectionString",
+      "sqlQuery": "SELECT members.name FROM members"
     }
   ]
 }
