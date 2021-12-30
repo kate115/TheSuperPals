@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: '[BUG] ____ is _____.'
-labels: 'All Bugs'
-assignees: 'kate115, torac1115'
+title: "[BUG] ____ is _____."
+labels: All Bugs
+assignees: torrac1115, kate115
 
 ---
 
@@ -15,18 +15,12 @@ Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
-4. See error
+4. See an error
 
 **Expected behavior**
 It should've _________.
 
 **Screenshots**
-
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
 
 **Additional context**
 Add any other context about the problem here.

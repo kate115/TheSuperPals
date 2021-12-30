@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: '[IDEA] Add _______'
-labels: 'All Ideas'
-assignees: 'kate115'
+title: "[IDEA] Add _______"
+labels: All Ideas
+assignees: kate115
 
 ---
 
@@ -11,7 +11,7 @@ assignees: 'kate115'
 I'm always _______ when _________ happens. I think it should _______.
 
 **Describe the solution you'd like**
-I think it would be better if _______ happened than what it done right now.
+I think it would be better if _______ happened than _______________.
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
