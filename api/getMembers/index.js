@@ -10,7 +10,7 @@ module.exports = async function (context, req) {
     let responseMessage = "";
     for (let i = 0; i < inData.length; i++) {
         if(i == inData.length - 1) {
-            responseMessage += inData[i].name + ".";
+            responseMessage += "and " + inData[i].name + ".";
         } else {
             responseMessage += inData[i].name + ", ";
         }

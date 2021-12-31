@@ -107,7 +107,6 @@
 <h1 class="footer">Thanks for looking at our website.</h1>
 
   <p>Loading database content from the API: <b id="data">...</b></p>
-  <p>Loading fun content from the API: <b id="fun">...</b></p>
   <p>Loading member content from the API: <b id="member">...</b></p>
 
     <script>
@@ -117,18 +116,6 @@
         document.querySelector('#data').textContent = "dbmsg";
 
         // console.log(dbData); 
-      }())
-
-      // (async function() {
-      //   const { text } = await( await fetch(`/api/test`)).json();
-      //   document.querySelector('#fun').textContent = text;
-      // }())
-
-      (async function() {
-        const { text, dbData } = await( await fetch(`/api/getMembers`)).json();
-        document.querySelector('#member').textContent = "Hi, this shall show the members!";
-
-        console.log(text); 
       }())
       </script>
   </body>

@@ -33,7 +33,9 @@
         to know more about us. We are asking more people to join every day. But,
         there is a low chance that they will say yes, so we are stuck right now,
         but if you happen to like our company and want to join, there's no way
-        we'll say no!
+        we'll say no! People we want to show you are the following: <span id="member">...</span>
+        I hope you spend some time meeting them! They are the most hard-working ones
+        in this company, so they would be our honorable mentions!
       </p>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -96,6 +98,14 @@
     </p>
 
     <h1 class="footer">Thanks for looking at our website.</h1>
+
+    <script>
+      (async function() {
+        const { text, dbData } = await( await fetch(`/api/getMembers`)).json();
+        document.querySelector('#member').textContent = text;
+
+      }())
+    </script>
 
   </body>
 </html>
