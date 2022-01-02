@@ -87,6 +87,22 @@
       </ul>
     </ul>
 
+    <p>
+      We want you to know more about us too, so we have many buttons
+      for you to try out! Click them, and information about our
+      three best honorable mentions!
+    </p>
+
+    <button id="melodyButton">Melody</button>
+
+    <button id="ryanButton">Ryan</button>
+    
+    <button id="isabelaButton">Isabela</button>
+
+    <div id="infoBox">
+
+    </div>
+
     <h3>Imagine</h3>
 
     <p>
@@ -103,9 +119,14 @@
       (async function() {
         const { text, dbData } = await( await fetch(`/api/getMembers`)).json();
         document.querySelector('#member').textContent = text;
-
       }())
+
+      // (async function() {
+      //   const { text, dbData } = await( await fetch(`/api/getMemberData`)).json();
+      // }())
     </script>
+
+    <script src="../Javascript/script.js"></script>
 
   </body>
 </html>

@@ -69,3 +69,10 @@ a:active {
         font-family: sans-serif;
     }
 }
+
+button {
+    font-family: "Comic Sans MS";
+    background-color: rgb(83, 83, 83);
+    color: honeydew;
+    border-radius: 3px;
+}
