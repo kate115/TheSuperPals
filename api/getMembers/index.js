@@ -2,7 +2,7 @@ module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
     console.log(req);
 
-    const name = (req.query.name || (req.body && req.body.name));
+    // const name = (req.query.name || (req.body && req.body.name));
 
     const inData = context.bindings.inputDocument;
     console.log(inData);
