@@ -1,6 +1,4 @@
 // This will be used for the news interviews. It'll have a class, and it'll show the answer to it.
-// HARDCODE FOR NOW!
-
 var question1 = document.getElementById("question1");
 var question2 = document.getElementById("question2");
 var question3 = document.getElementById("question3");
@@ -13,27 +11,23 @@ answer1.style.display = "none";
 answer2.style.display = "none";
 answer3.style.display = "none";
 
+const questions = [question1, question2, question3];
+const answers = [answer1, answer2, answer3];
 
-question1.addEventListener("click", function() {
-    if(answer1.style.display == "block") {
-        answer1.style.display = "none";
-    } else {
-        answer1.style.display = "block"
-    }
-});
+for (let i = 0; i < questions.length; i++) {
+    questionEvent(questions[i], answers[i]);
+}
 
-question2.addEventListener("click", function() {
-    if(answer2.style.display == "block") {
-        answer2.style.display = "none";
-    } else {
-        answer2.style.display = "block"
-    }
-});
+function questionEvent(question, answer) {
+    question.addEventListener("click", function() {
+        interviewDisplay(answer);
+    });
+}
 
-question3.addEventListener("click", function() {
-    if(answer3.style.display == "block") {
-        answer3.style.display = "none";
+function interviewDisplay(answer) {
+    if(answer.style.display == "block") {
+        answer.style.display = "none";
     } else {
-        answer3.style.display = "block"
+        answer.style.display = "block"
     }
-});
+}
