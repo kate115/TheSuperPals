@@ -76,3 +76,7 @@ button {
     color: honeydew;
     border-radius: 3px;
 }
+
+#question1:hover, #question2:hover, #question3:hover {
+    color: rgb(250, 98, 98)
+}
