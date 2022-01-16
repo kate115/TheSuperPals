@@ -47,10 +47,9 @@
 
     <p>
       We are having an interview with Melody Wang, the maker of this website.
-      We'll put it in a list just for other cases.
     </p>
 
-    <ul>
+    <ul id="interview">
       <li class="question"><b>Question:</b> Why have you made this website?</li>
       <li class="answer">
         <b>Melody:</b> I wanted to try out my coding skills and show others about
@@ -69,8 +68,6 @@
       <li class="answer">
         <b>Melody:</b> ... YEAH, I CAN! I WAS WORKING ON SLUG AND LEAF!
       </li>
-      <li>And... this interview is over!</li>
-      <li><b>Melody:</b> ... And I hated the last question.</li>
     </ul>
 
     <h4>Input your Question!</h4>
@@ -80,8 +77,13 @@
       <input type="text" id="fname" name="fname" placeholder="Input First Name..."><br />
       <label for="lname">Last name:</label><br />
       <input type="text" id="lname" name="lname" placeholder="Input Last Name..."><br />
-      <label for="question">Question:</label><br />
-      <textarea id="question" name="question"></textarea><br /><br />
+      <fieldset>
+        <legend>Q & A!</legend>
+        <label for="question">Question:</label><br />
+        <textarea id="question" name="question"></textarea><br />
+        <label for="answer">Answer:</label><br />
+        <textarea id="answer" name="answer"></textarea><br />
+      </fieldset>
       <input type="submit" value="Submit">
     </form>
 

@@ -1,3 +1,13 @@
+const QAndA = [
+    {question: "Is this a question?", answer: "Yes"},
+    {question: "Is it not?", answer: "No"}
+]
+
+// var test = document.getElementById("testP");
+// var element = document.createElement("p");
+// element.innerText = "Hi, this is for TEST ONLY SO DO NOT LOOK"
+// test.appendChild(element);
+
 const questions = document.getElementsByClassName("question");
 const answers = document.getElementsByClassName("answer");
 
