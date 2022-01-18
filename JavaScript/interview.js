@@ -4,6 +4,8 @@ const QAndA = [
     {question: "Can you write a story?", answer: "Yeah, because I'm working on Slug and Leaf!"}
 ]
 
+var form = document.getElementById("QAndAForm")
+
 var interviewDiv = document.getElementById("interview");
 interviewDiv.innerHTML = '';
 
